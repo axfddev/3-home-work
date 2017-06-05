@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>СТРОЙМАТЕРИАЛЫ</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/svg4everybody.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+<header>
+    <div class="header-top">
+        <div class="share">
+            <a class="share__item" href="#">
+                <svg class="share__icon">
+                   <use xlink:href="i/all-icon.svg#fb"></use>
+                </svg>
+            </a>
+            <a class="share__item" href="#">
+                <svg class="share__icon">
+                    <use xlink:href="i/all-icon.svg#vk"></use>
+                </svg>
+            </a>
+            <a class="share__item" href="#">
+                <svg class="share__icon">
+                    <use xlink:href="i/all-icon.svg#tw"></use>
+                </svg>
+            </a>
+        </div>
+
+        <div class="login-reg">
+            <svg class="login-reg__icon">
+                <use xlink:href="i/all-icon.svg#login"></use>
+            </svg>
+            <a class="login-reg__link" href="#">вход</a>/<a class="login-reg__link" href="#">регистрация</a>
+        </div>
+    </div>
+
+    <div class="header-bottom">
+        <div class="logo">
+            <img class="logo__img" src="i/logo.png" alt="logo">
+            <div class="logo__discr">
+                <h1 class="logo__title">СТРОЙМАТЕРИАЛЫ</h1>
+                <span class="logo__slogan">всё для строительства и ремонта</span>
+            </div>
+        </div>
+
+        <div class="search">
+            <input class="search__text-box" type="text" placeholder="ПОИСК" name="search">
+            <svg class="search__button">
+                <use xlink:href="i/all-icon.svg#search"></use>
+            </svg>
+        </div>
+
+        <div class="shop-basket">
+            <img class="shop-basket__icon" src="i/shop-basket.png" alt="basket">
+            <div class="shop-basket__discription">
+                <span class="shop-basket__text">КОРЗИНА</span>
+                <span class="shop-basket__text">покупок 0</span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<nav class="main-navigation">
+    <a class="main-navigation__item" href="#">КАТАЛОГ</a>
+    <a class="main-navigation__item" href="#">АКЦИИ</a>
+    <a class="main-navigation__item" href="#">О НАС</a>
+    <a class="main-navigation__item" href="#">БЛОГ</a>
+</nav>
+
+<main>
+    <article class="product-item">
+        <img class="product-item__photo" src="img/product-item_1.jpg" alt="product">
+        <div class="product-item__discription">
+            <div class="product-item__discr">
+                <h2 class="product-item__lable">HUSQVARNA 236</h2>
+                <p class="product-item__text">Легкая и универсальная бензопила для периодического выполнения работ по пилению</p>
+                <span class="product-item__price">10 990 ₽</span>
+            </div>
+            <div class="product-item__btns">
+                <svg class="product-item__btn">
+                    <use xlink:href="i/all-icon.svg#info"></use>
+                </svg>
+                <img class="product-item__btn" src="i/shop-basket.png" alt="bay">
+            </div>
+        </div>
+    </article>
+
+    <article class="product-item">
+        <img class="product-item__photo" src="img/product-item_2.jpg" alt="product">
+        <div class="product-item__discription">
+            <div class="product-item__discr">
+                <h2 class="product-item__lable">ЦЕМЕНТ М-400</h2>
+                <p class="product-item__text">Цемент марки М400 имеет высокую прочность и обладает антикоррозийными свойствами.</p>
+                <span class="product-item__price">550 ₽</span>
+            </div>
+            <div class="product-item__btns">
+                <svg class="product-item__btn">
+                    <use xlink:href="i/all-icon.svg#info"></use>
+                </svg>
+                <img class="product-item__btn" src="i/shop-basket.png" alt="bay">
+            </div>
+        </div>
+    </article>
+
+    <article class="product-item">
+        <img class="product-item__photo" src="img/product-item_3.jpg" alt="product">
+        <div class="product-item__discription">
+            <div class="product-item__discr">
+                <h2 class="product-item__lable">УТЕПЛИТЕЛЬ</h2>
+                <p class="product-item__text">Легкие негорючие тепло-звукоизоляционные плиты из минеральной ваты.</p>
+                <span class="product-item__price">800 ₽</span>
+            </div>
+            <div class="product-item__btns">
+                <svg class="product-item__btn">
+                    <use xlink:href="i/all-icon.svg#info"></use>
+                </svg>
+                <img class="product-item__btn" src="i/shop-basket.png" alt="bay">
+            </div>
+        </div>
+    </article>
+
+    <article class="product-item">
+        <img class="product-item__photo" src="img/product-item_4.jpg" alt="product">
+        <div class="product-item__discription">
+            <div class="product-item__discr">
+                <h2 class="product-item__lable">METABO WX 2000</h2>
+                <p class="product-item__text">Углошлифовальная машина болгарка) Metabo WX 2000, 2000 Вт, 230 мм</p>
+                <span class="product-item__price">7 250 ₽</span>
+            </div>
+            <div class="product-item__btns">
+                <svg class="product-item__btn">
+                    <use xlink:href="i/all-icon.svg#info"></use>
+                </svg>
+                <img class="product-item__btn" src="i/shop-basket.png" alt="bay">
+            </div>
+        </div>
+    </article>
+
+    <article class="product-item">
+        <img class="product-item__photo" src="img/product-item_5.jpg" alt="product">
+        <div class="product-item__discription">
+            <div class="product-item__discr">
+                <h2 class="product-item__lable">САЙДИНГ ВИНИЛОВЫЙ</h2>
+                <p class="product-item__text">Сайдинг  имитирующий оригинальную форму и цвет деревянных калиброванных бревен.</p>
+                <span class="product-item__price">270 ₽</span>
+            </div>
+            <div class="product-item__btns">
+                <svg class="product-item__btn">
+                    <use xlink:href="i/all-icon.svg#info"></use>
+                </svg>
+                <img class="product-item__btn" src="i/shop-basket.png" alt="bay">
+            </div>
+        </div>
+    </article>
+
+    <article class="product-item">
+        <img class="product-item__photo" src="img/product-item_6.jpg" alt="product">
+        <div class="product-item__discription">
+            <div class="product-item__discr">
+                <h2 class="product-item__lable">КИРПИЧ КРАСНЫЙ</h2>
+                <p class="product-item__text">Отличный строительный материал, широко используемый во все времена</p>
+                <span class="product-item__price">15 ₽</span>
+            </div>
+            <div class="product-item__btns">
+                <svg class="product-item__btn">
+                    <use xlink:href="i/all-icon.svg#info"></use>
+                </svg>
+                <img class="product-item__btn" src="i/shop-basket.png" alt="bay">
+            </div>
+        </div>
+    </article>
+
+    <article class="product-item">
+        <img class="product-item__photo" src="img/product-item_7.jpg" alt="product">
+        <div class="product-item__discription">
+            <div class="product-item__discr">
+                <h2 class="product-item__lable">ИНТЕРСЛОК Д-16</h2>
+                <p class="product-item__text">Дрель сетевая безударная Интерскол Д-16/1050Р, 1050 Вт</p>
+                <span class="product-item__price">5 400 ₽</span>
+            </div>
+            <div class="product-item__btns">
+                <svg class="product-item__btn">
+                    <use xlink:href="i/all-icon.svg#info"></use>
+                </svg>
+                <img class="product-item__btn" src="i/shop-basket.png" alt="bay">
+            </div>
+        </div>
+    </article>
+
+    <article class="product-item">
+        <img class="product-item__photo" src="img/product-item_8.jpg" alt="product">
+        <div class="product-item__discription">
+            <div class="product-item__discr">
+                <h2 class="product-item__lable">БЛОК-ХАУС</h2>
+                <p class="product-item__text">Материал, предназначенный для декоративной отделки дома.</p>
+                <span class="product-item__price">430 ₽</span>
+            </div>
+            <div class="product-item__btns">
+                <svg class="product-item__btn">
+                    <use xlink:href="i/all-icon.svg#info"></use>
+                </svg>
+                <img class="product-item__btn" src="i/shop-basket.png" alt="bay">
+            </div>
+        </div>
+    </article>
+
+</main>
+<aside class="slider">
+    <svg class="slider__btn slider__btn--pre">
+        <use xlink:href="i/all-icon.svg#left"></use>
+    </svg>
+    <div class="slider__slide">
+        <article class="slider__item slider__item--visible">
+            <img class="slider__photo" src="img/for-slide_1.jpg" alt="photo1">
+            <div class="slider__product-description">
+                <h2 class="slider__product-title">SKIPER LT 6500</h2>
+                <span class="slider__colection">НОВОЕ ПОСТУПЛЕНИЕ</span>
+                <p class="slider__text">Бензогенератор 5 кВт номинальной мощности представляет собой агрегат с двигателем внутреннего сгорания, работающем на бензиновом топливе.</p>
+                <input class="slider__bay-now" type="button" value="купить сейчас">
+            </div>
+        </article>
+
+        <article class="slider__item">
+            <img class="slider__photo" src="img/for-slide_2.jpg" alt="photo1">
+            <div class="slider__product-description">
+                <h2 class="slider__product-title">AEG KS66C</h2>
+                <span class="slider__colection">НОВОЕ ПОСТУПЛЕНИЕ</span>
+                <p class="slider__text">Циркулярная пила AEG KS66C – это высокомощный ручной инструмент для распиливания деревянных изделий под прямым углом или с уклоном (до 56°).</p>
+                <input class="slider__bay-now" type="button" value="купить сейчас">
+            </div>
+        </article>
+
+        <article class="slider__item">
+            <img class="slider__photo" src="img/for-slide_3.jpg" alt="photo1">
+            <div class="slider__product-description">
+                <h2 class="slider__product-title">UNIEL RS-1/5000</h2>
+                <span class="slider__colection">НОВОЕ ПОСТУПЛЕНИЕ</span>
+                <p class="slider__text">Релейный стабилизатор напряжения Uniel 5 кВт. Входное напряжение 140-260 В, выходное напряжение 202-238 В, точность стабилизации 8%, напольное размещение.</p>
+                <input class="slider__bay-now" type="button" value="купить сейчас">
+            </div>
+        </article>
+
+        <article class="slider__item">
+            <img class="slider__photo" src="img/for-slide_4.jpg" alt="photo1">
+            <div class="slider__product-description">
+                <h2 class="slider__product-title">BS500E 140CC</h2>
+                <span class="slider__colection">НОВОЕ ПОСТУПЛЕНИЕ</span>
+                <p class="slider__text">STERWINS BS500E 140CC ‒ полупрофессиональная самоходная газонокосилка с бензиновым двигателем мощностью более 2 кВт.</p>
+                <input class="slider__bay-now" type="button" value="купить сейчас">
+            </div>
+        </article>
+    </div>
+    <svg class="slider__btn slider__btn--next">
+        <use xlink:href="i/all-icon.svg#right"></use>
+    </svg>
+
+</aside>
+
+<aside class="discounts">
+    <div class="discount">
+        <div class="discount__discription">
+            <div class="discount_discr">
+                <span class="discount__title">Cкидка</span>
+                <p class="discount__text">дисконтные карты для постоянных покупателей</p>
+            </div>
+            <span class="discount__value">3%</span>
+        </div>
+        <a class="discount__link" href="#">Узнать подробности</a>
+    </div>
+
+    <div class="discount">
+        <div class="discount__discription">
+            <div class="discount_discr">
+                <span class="discount__title">Cкидка</span>
+                <p class="discount__text">пердолжение для оптовых покупатетей</p>
+            </div>
+            <span class="discount__value">10%</span>
+        </div>
+        <a class="discount__link" href="#">Узнать подробности</a>
+    </div>
+
+    <div class="discount">
+        <div class="discount__discription">
+            <div class="discount_discr">
+                <span class="discount__title">Cкидка</span>
+                <p class="discount__text">распродажа остатков со складов</p>
+            </div>
+            <span class="discount__value">12%</span>
+        </div>
+        <a class="discount__link" href="#">Узнать подробности</a>
+    </div>
+
+</aside>
+<footer>
+    <hr class="footer-line">
+
+    <ul class="footer-list">
+        <li class="footer-list__item">
+            <span class="footer-list__inner-item footer-list__inner-item--title">Меню</span>
+            <a class="footer-list__inner-link" href="#">Каталог</a>
+            <a class="footer-list__inner-link" href="#">Акции</a>
+            <a class="footer-list__inner-link" href="#">О нас</a>
+            <a class="footer-list__inner-link" href="#">Блог</a>
+            <a class="footer-list__inner-link" href="#">Карта сайта</a>
+        </li>
+
+        <li class="footer-list__item">
+            <span class="footer-list__inner-item footer-list__inner-item--title">Каталог</span>
+            <a class="footer-list__inner-link" href="#">Электроинструмент</a>
+            <a class="footer-list__inner-link" href="#">Бензоинструмент</a>
+            <a class="footer-list__inner-link" href="#">Строительные материалы</a>
+            <a class="footer-list__inner-link" href="#">Отделочные материалы</a>
+            <a class="footer-list__inner-link" href="#">Товары для сада</a>
+        </li>
+
+        <li class="footer-list__item">
+            <span class="footer-list__inner-item footer-list__inner-item--title">Блог</span>
+            <a class="footer-list__inner-link" href="#">Полезные советы</a>
+            <a class="footer-list__inner-link" href="#">Как выбрать стройматериал</a>
+            <a class="footer-list__inner-link" href="#">Хозяину на заметку</a>
+            <a class="footer-list__inner-link" href="#">Баня своими руками</a>
+            <a class="footer-list__inner-link" href="#">Как построить дом</a>
+        </li>
+
+        <li class="footer-list__item">
+            <span class="footer-list__inner-item footer-list__inner-item--title">Контакты</span>
+            <div class="footer-list__inner-item">
+                <div class="share">
+                    <a class="share__item share__item--lg" href="#">
+                        <svg class="share__icon">
+                            <use xlink:href="i/all-icon.svg#fb"></use>
+                        </svg>
+                    </a>
+                    <a class="share__item share__item--lg" href="#">
+                        <svg class="share__icon">
+                            <use xlink:href="i/all-icon.svg#vk"></use>
+                        </svg>
+                    </a>
+                    <a class="share__item share__item--lg" href="#">
+                        <svg class="share__icon">
+                            <use xlink:href="i/all-icon.svg#tw"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <span class="footer-list__inner-item">+7(915)458-75-65</span>
+            <span class="footer-list__inner-item">+7(915)458-75-65</span>
+        </li>
+
+    </ul>
+</footer>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
